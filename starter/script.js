@@ -46,6 +46,7 @@ calculateAge(1995);
 
 // Lecture 95: Hoisting and TDZ
 
+/*
 // variables
 console.log(me);
 // console.log(job);
@@ -89,3 +90,43 @@ const z = 3;
 console.log(x === window.x);
 console.log(y === window.y);
 console.log(z === window.z);
+*/
+
+////////////////////////////////////
+
+// Lecture 97: The this keyword
+
+// console.log(this);
+
+// const calculateAge = function(birthYear) {
+//   console.log(2037 - birthYear);
+//   // console.log(this);
+// }
+// calculateAge(1995);
+
+// const calculateAgeArrow = birthYear => {
+//   console.log(2037 - birthYear);
+//   // console.log(this);
+// }
+// calculateAgeArrow(1995);
+
+// const justice = {
+//   year: 1995,
+//   calcAge: function() {
+//     console.log(this);
+//     console.log(2037 - this.year);
+//   }
+// }
+// justice.calcAge();
+
+// const matilda = {
+//   year: 2017,
+// };
+
+// matilda.calcAge = justice.calcAge;
+// matilda.calcAge();
+
+// const f = justice.calcAge;
+// f();
+
+///////////////////////////////
